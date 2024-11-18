@@ -1,4 +1,4 @@
-End-to-End Data Processing Pipeline with Kafka, Airflow, and Spark
+End-to-End Data Processing Pipeline with Kafka, Airflow
 
 This project demonstrates a robust data processing pipeline that leverages the power of Apache Kafka, Apache Airflow.
 Key Components and Workflow:
