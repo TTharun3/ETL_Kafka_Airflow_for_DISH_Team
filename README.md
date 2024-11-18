@@ -1,14 +1,14 @@
 End-to-End Data Processing Pipeline with Kafka, Airflow, and Spark
 
-This project demonstrates a robust data processing pipeline that leverages the power of Apache Kafka, Apache Airflow, and Apache Spark.
+This project demonstrates a robust data processing pipeline that leverages the power of Apache Kafka, Apache Airflow.
 Key Components and Workflow:
 
 1.	Data Generation:
-  o	A Python script simulates real-time data generation and feeds it into a Kafka topic.
-2.	Data Ingestion and Batch Processing with Airflow:
+   o	A Python script simulates real-time data generation and feeds it into a Kafka topic.
+3.	Data Ingestion and Batch Processing with Airflow:
   o	An Airflow DAG orchestrates the following tasks: 
-*	Kafka Message Collection: Collects a batch of 100 messages from the Kafka topic and stores them in a CSV file.
-*	Data Cleaning: Reads the CSV file, cleans the data (e.g., handling missing values, converting to uppercase), and saves the cleaned data as a new CSV file.
+  *	Kafka Message Collection: Collects a batch of 100 messages from the Kafka topic and stores them in a CSV file.
+  *	Data Cleaning: Reads the CSV file, cleans the data (e.g., handling missing values, converting to uppercase), and saves the cleaned data as a new CSV file.
 
 
 Benefits of this Approach:
